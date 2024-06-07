@@ -1,0 +1,901 @@
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/*==========================HEADER==========================*/
+header
+{
+    width: 100%;
+    height: 15%;
+    background-color: #E8E8E8;
+    opacity: 0.7;
+}
+
+header img
+{
+    width: 70px;
+    height: 70px;
+
+    position: relative;
+    top: 50%;
+    left: 10%;
+    transform: translate(-50%, -50%)
+}
+
+nav
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    position: relative;
+    top: -20%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+nav a
+{
+    margin: 0 30px 0 30px;
+    color: black;
+    text-decoration: none;
+
+    font-size: 20px;
+
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+/*--------------HOME--------------*/
+
+#home-body
+{
+    background-color: #171716;
+}
+
+.hcontainer
+{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hcontainer img
+{
+    width: 800px;
+    height: 140px;
+
+    position: relative;
+    top: 50px;
+}
+
+#h-p1
+{
+    margin-top: 60px;
+
+    color: white;
+
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 200;
+}
+
+#h-p2
+{
+    margin-top: 30px;
+
+    width: 1000px;
+
+    color: white;
+
+    font-size: 25px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+
+    text-align: center;
+}
+
+/*--------------TENTANG--------------*/
+#tentang-body
+{
+    background-color: #219EBC;
+}
+
+.tcontainer
+{
+    position: absolute;
+    top: 58%; left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 90%;
+    height: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.t-BIP
+{
+    width: 95%;
+    height: 40%;
+
+    color: white;
+}
+
+.t-BIP h1
+{
+    margin-top: 0;
+    margin-bottom: 2px;
+    font-size: 70px;
+    font-family: "Aneka Bangla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.t-BIP p
+{
+    font-size: 17px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+.t-vm
+{
+    width: 95%;
+    height: 50%;
+
+    margin: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.t-vm-items
+{
+    width: 30%;
+    height: 90%;
+
+    margin: 0 110px 0 110px;
+
+    color: white;
+}
+
+.t-vm-items h2
+{
+    margin-top: 1px;
+    margin-bottom: 0;
+
+    font-size: 70px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+}
+
+.t-vm-items p
+{
+    margin-top: 0;
+
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+}
+
+/*--------------JASA--------------*/
+#jasa-body
+{
+    background-color: #F29F42;
+}
+
+.j-container1
+{
+    width: 100%;
+    height: 82.6vh;
+}
+
+.j-container1 img
+{
+    width: 1200px;
+    height: 473px;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.j-container2
+{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.j-items
+{
+    width: 35%;
+    height: 70%;
+
+    background-color: white;
+    border-radius: 15px;
+
+    margin: 0 15px 0 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.j-items h2
+{
+    margin-top: 0;
+    margin-bottom: 10px;
+
+    width: 70%;
+    height: auto;
+
+    font-size: 35px;
+}
+
+.j-items p
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    width: 90%;
+    height: auto;
+
+    font-size: 15px;
+}
+
+.j-items img
+{
+    margin: 10px;
+    cursor: pointer;
+}
+
+/*--------------TEAM--------------*/
+#team-body
+{
+    background-color: #FFB703;
+}
+
+.tm-container
+{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    width: 90%;
+    height: 75%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tm-title
+{
+    width: 100%;
+    height: 30%;
+
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tm-title img
+{
+    width: 60px;
+    height: 60px;
+}
+
+.tm-title h1
+{
+    font-size: 55px;
+    font-family: "Aneka Bangla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+
+    margin: 0px;
+
+    color: white;
+}
+
+.tm-team
+{
+    width: 100%;
+    height: 60%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.tm-team-member
+{
+    width: 25%;
+    height: 90%;
+
+    margin: 25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tm-team-member img
+{
+    width: 200px;
+    height: 200px;
+}
+
+.tm-team-member p
+{
+    margin: 5px;
+
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.tm-team-member p#n
+{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.tm-team-member p#i
+{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/*--------------PAKET--------------*/
+#paket-body
+{
+    background-color: #8ECAE6;
+}
+
+.p_container
+{
+    width: 90%;
+    height: 80%;
+
+    position: relative;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.p_title
+{
+    width: 90%;
+    height: auto;
+
+    text-align: center;
+}
+
+.p_title h1
+{
+    font-size: 55px;
+    font-family: "Aneka Bangla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+
+    color: white;
+}
+
+.p_paket
+{
+    width: 100%;
+    height: 60%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.p_paket_items
+{
+    width: 20%;
+    height: 95%;
+
+    border-radius: 15px;
+
+    background-color: white;
+
+    margin: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.p_paket_items h2
+{
+    font-size: 25px;
+    font-family: "Aneka Bangla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+
+    margin: 0;
+}
+
+.p_paket_items p
+{
+    margin: 0;
+
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.p_btn
+{
+    width: 30%;
+    height: 10%;
+
+    margin-top: 15px;
+
+    background-color: #219EBC;
+    border-radius: 10px;
+
+    font-size: 15px;
+    font-family: "Aneka Bangla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+}
+
+/*--------------KARIR--------------*/
+#karir-body
+{
+    background-color: #EE6C4D;
+}
+
+.k_container
+{
+    width: 95%;
+    height: 83%;
+
+    position: relative;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.k_title
+{
+    width: 90%;
+    height: auto;
+
+    text-align: center;
+}
+
+.k_title h1
+{
+    font-size: 55px;
+    font-family: "Aneka Bangla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+
+    color: white;
+
+    margin: 0;
+}
+
+.k_lk
+{
+    width: 100%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.k_lk_items
+{
+    width: 25%;
+    height: 90%;
+
+    border-radius: 15px;
+
+    background-color: white;
+
+    margin: 15px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.k_lk_items h2
+{
+    font-size: 25px;
+    font-family: "Aneka Bangla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 900;
+
+    margin: 0;
+}
+
+.k_lk_items p
+{
+    width: 90%;
+    height: auto;
+    
+    margin: 0;
+
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+#k_lk_infokecil
+{
+    font-size: 10px;
+    text-align: center;
+
+    margin: 0;
+}
+
+.k_lk_items img
+{
+    width: 100px;
+    height: 80px;
+
+    cursor: pointer;
+}
+
+/*--------------KONTAK--------------*/
+#kontak-body
+{
+    background-color: #3D5A80;
+}
+
+.kk_container
+{
+    width: 95%;
+    height: 83%;
+
+    position: relative;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kk_title
+{
+    width: 90%;
+    height: auto;
+
+    text-align: center;
+}
+
+.kk_title h1
+{
+    font-size: 55px;
+    font-family: "Aneka Bangla", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+
+    color: white;
+
+    margin-bottom: 5px;
+}
+
+.kk_jam
+{
+    width: 90%;
+    height: auto;
+
+    text-align: center;
+}
+
+.kk_jam p
+{
+    font-size: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+
+    color: white;
+}
+
+.kk_sm
+{
+    width: 90%;
+    height: 10%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.kk_sm_items
+{
+    margin-left: 10px; margin-right: 10px;
+
+    width: 300px;
+    height: 60px;
+
+    text-align: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.kk_sm_items p
+{
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    text-decoration: none;
+    color: white;
+
+    margin: 5px;
+}
+
+.kk_sm_items p#kk-email
+{
+    cursor: pointer;
+}
+
+.kk_sm_items a
+{
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+    text-decoration: none;
+    color: white;
+
+    margin: 5px;
+}
+
+
+/*--------------FORMULIR KONTAK--------------*/
+#formulirkontak-body {
+    background-color: #3D5A80;
+}
+.fk_container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.fk_form-group {
+    margin-bottom: 15px;
+}
+.fk_form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.fk_form-group input,
+.fk_form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.fk_form-group textarea {
+    height: 150px;
+    resize: vertical;
+}
+.fk_form-group button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.fk_form-group button:hover {
+    background-color: #45a049;
+}
+
+/*--------------FORMULIR PAKET--------------*/
+#formulirpaket-body {
+    background-color: #8ECAE6;
+}
+.fp_container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+.fp_form-group {
+    margin-bottom: 15px;
+}
+.fp_form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.fp_form-group input,
+.fp_form-group textarea,
+.fp_form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.fp_form-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+.fp_form-group button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.fp_form-group button:hover {
+    background-color: #45a049;
+}
+.fp_info {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/*==============FORMULIR KARIR==============*/
+#formulirkarir-body {
+    background-color: #EE6C4D;
+}
+
+.fkr_container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+    font-family: "DM Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.fkr_container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fkr_form-group {
+    margin-bottom: 15px;
+}
+
+.fkr_form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.fkr_form-group input,
+.fkr_form-group select,
+.fkr_form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.fkr_form-group textarea {
+    height: 150px;
+    resize: vertical;
+}
+
+.fkr_form-group button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.fkr_form-group button:hover {
+    background-color: #45a049;
+}

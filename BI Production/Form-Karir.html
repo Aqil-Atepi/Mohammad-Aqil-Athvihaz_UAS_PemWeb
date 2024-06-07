@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Karir - BI Production</title>
+    <link rel="icon" href="Assets/Icon-BIP.png">
+    <link rel="stylesheet" href="style.css">
+    <!-- FONTS -->
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body id="formulirkarir-body">
+    <header>
+        <img src="Assets/Icon-BIP.png" alt="Icon BIP">
+        <nav>
+            <a href="Home.html">HOME</a>
+            <a href="Tentang.html">TENTANG</a>
+            <a href="Jasa.html">JASA</a>
+            <a href="Team.html">TEAM</a>
+            <a href="Paket.html">PAKET</a>
+            <a href="Karir.html">KARIR</a>
+            <a href="Kontak.html">KONTAK</a>
+        </nav>
+    </header>
+    <div class="fkr_container">
+        <h2>Formulir Karir</h2>
+        <form>
+            <div class="fkr_form-group">
+                <label for="name">Nama:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="fkr_form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="fkr_form-group">
+                <label for="job">Pilihan Pekerjaan:</label>
+                <select id="job" name="job" required>
+                    <option value="software-engineer">Software Engineer</option>
+                    <option value="ui-ux-designer">UI/UX Designer</option>
+                    <option value="digital-marketing-specialist">Digital Marketing Specialist</option>
+                </select>
+            </div>
+            <div class="fkr_form-group">
+                <label for="reason">Alasan Mengapa Kita Harus Merekrut Anda:</label>
+                <textarea id="reason" name="reason" required></textarea>
+            </div>
+            <div class="fkr_form-group">
+                <label for="phone">Nomor Telepon:</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="fkr_form-group">
+                <button type="submit">Kirim</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

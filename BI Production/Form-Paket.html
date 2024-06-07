@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pemesanan Paket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="formulirpaket-body">
+
+    <header>
+        <img src="Assets/Icon-BIP.png" alt="Icon BIP">
+        <nav>
+            <a href="Home.html">HOME</a>
+            <a href="Tentang.html">TENTANG</a>
+            <a href="Jasa.html">JASA</a>
+            <a href="Team.html">TEAM</a>
+            <a href="Paket.html">PAKET</a>
+            <a href="Karir.html">KARIR</a>
+            <a href="Kontak.html">KONTAK</a>
+        </nav>
+    </header>
+
+<div class="fp_container">
+    <form>
+        <div class="fp_form-group">
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        <div class="fp_form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+        <div class="fp_form-group">
+            <label for="package">Pilihan Paket:</label>
+            <select id="package" name="package" required>
+                <option value="standard">Paket Standard - 10 Juta</option>
+                <option value="premium">Paket Premium - 20 Juta</option>
+                <option value="ultimate">Paket Ultimate - 30 Juta</option>
+            </select>
+        </div>
+        <div class="fp_form-group">
+            <label for="description">Deskripsi/Keterangan:</label>
+            <textarea id="description" name="description" required></textarea>
+        </div>
+        <div class="fp_form-group">
+            <button type="submit">Pesan</button>
+        </div>
+    </form>
+    <div class="fp_info">
+        Jika Anda ingin berbicara kepada tim kami tentang detail paket, silahkan hubungi kami melalui kontak yang tersedia.
+    </div>
+</div>
+
+</body>
+</html>
